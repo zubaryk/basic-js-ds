@@ -1,12 +1,6 @@
 const { NotImplementedError } = require('../extensions/index.js');
 
-class Node {
-  constructor(data) {
-    this.data = data;
-    this.left = null;
-    this.right = null;
-  }
-}
+
 
 /**
 * Implement simple binary search tree according to task description
@@ -151,54 +145,18 @@ class BinarySearchTree {
 }
 
 
-const bst = new BinarySearchTree(); 
-
-function addItems() {
-
-  bst.add(13);
-  bst.add(15);
-  bst.add(9);
-  bst.add(20);
-  bst.add(18);
-  bst.add(32);
-  bst.add(25);
+ 
 
 
-  }
 
-addItems();
 
-function getItems() {
-  
 
- // console.log(bst.has(15));
-}
-
-getItems();
-
-function removeItems() {
- // console.log(bst.remove(13));
-//  console.log(bst);
-}
-removeItems();
-
-function max() {
- // console.log(bst.max());
-}
-max();
-
-function find() {
-  console.log(bst.find(48));
-}
-find();
 
 
 module.exports = {
   BinarySearchTree
 };
 
-module.exports = {
-  Node
-};
+
 
 
